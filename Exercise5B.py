@@ -27,6 +27,7 @@ while i > 0:
         runningCount += 1
         print("x", end="")
         j = j - 1
+
     j = WidthLength
     i = i - 1
     print("",end="\n")
