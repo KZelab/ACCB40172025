@@ -14,6 +14,7 @@ while WidthLength <= 0 or HeightLength <= 0:
     if HeightLength <= 0:
         HeightLength = int(input("Try again dumbass, Enter a height length greater than zero"))
 
+
 # for _ in range(HeightLength):
 #     print("x" * WidthLength)
 
