@@ -1,6 +1,10 @@
-
+import random
 
 myList = []
+
+myList2 = [2,3,4, "fart", len("Fart")]
+
+print(myList2)
 
 myList.append(7)
 
@@ -19,3 +23,28 @@ print(len("the wet farts came with lumps"))
 print(f"the popped off value {myList.pop()}" )
 
 print("the altered list", myList)
+
+total = myList[0] + myList[1]
+print(total)
+
+
+myList[0] = 10 # the item must already exist
+
+total = myList[0] + myList[1]
+print(total)
+
+count = 0
+while count < 50000:
+    myList.append(random.randint(0, 50))
+    count += 1
+
+print(myList)
+count = 0
+while count < 50000:
+    print(myList.pop())
+    count += 1
+
+
+
+
+print(myList)
